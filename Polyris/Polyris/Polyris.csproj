@@ -43,20 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Board.cs" />
-    <Compile Include="Controls.cs" />
+    <Compile Include="Game\Board.cs" />
     <Compile Include="Display.cs" />
-    <Compile Include="Level.cs" />
+    <Compile Include="Inputs\GameInputs.cs" />
+    <Compile Include="Inputs\InputHandler.cs" />
+    <Compile Include="Inputs\MenuInputs.cs" />
+    <Compile Include="Game\Level.cs" />
     <Compile Include="Menus\MainMenu.cs" />
     <Compile Include="Menus\Menu.cs" />
     <Compile Include="Menus\PauseMenu.cs" />
     <Compile Include="Menus\SettingsMenu.cs" />
-    <Compile Include="Player.cs" />
-    <Compile Include="Polyomino\Hexomino.cs" />
-    <Compile Include="Polyomino\Pentomino.cs" />
-    <Compile Include="Polyomino\Polyomino.cs" />
-    <Compile Include="Polyomino\Tetromino.cs" />
-    <Compile Include="Polyomino\Tromino.cs" />
+    <Compile Include="Game\Player.cs" />
+    <Compile Include="Game\Polyominos\Hexomino.cs" />
+    <Compile Include="Game\Polyominos\Pentomino.cs" />
+    <Compile Include="Game\Polyominos\Polyomino.cs" />
+    <Compile Include="Game\Polyominos\Tetromino.cs" />
+    <Compile Include="Game\Polyominos\Tromino.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
