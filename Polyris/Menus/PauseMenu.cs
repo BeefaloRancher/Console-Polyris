@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace Polyris
 {
-    public class Board
+    class PauseMenu
     {
-
-        public Board
     }
 }

@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Polyris.Menus
+namespace Polyris
 {
-    class SettingsMenu
+    class MainMenu : Menu
     {
+        public MainMenu() { }
     }
 }

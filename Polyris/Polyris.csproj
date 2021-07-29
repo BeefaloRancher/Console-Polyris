@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Game\Board.cs" />
-    <Compile Include="Display.cs" />
+    <Compile Include="Printer.cs" />
     <Compile Include="Inputs\GameInputs.cs" />
     <Compile Include="Inputs\InputHandler.cs" />
     <Compile Include="Inputs\MenuInputs.cs" />

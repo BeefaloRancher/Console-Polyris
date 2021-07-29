@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Polyris
 {
-    class Display
+    class SettingsMenu
     {
     }
 }

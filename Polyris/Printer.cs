@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Polyris.Menus
+namespace Polyris
 {
-    class PauseMenu
+    static class Printer
     {
+        static public void Print()
+        {
+
+        }
     }
 }
