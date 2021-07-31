@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2021-07-29T11:51:36.969Z" agent="5.0 (Windows)" etag="AHqDG690mdz-_wYb3Qld" version="14.9.3" type="device"><diagram id="CxMK_nGAUnv4Ez0_Zqhm" name="Page-1">ddHNEoIgEADgp+GuMKWdzerSyUNnRjZhBl0GabSePh0wY6wLs3y7sPwQVrTj2XIjryhAE5qIkbAjoTTL6TTO8PTAdgEaq4SndIVKvSBgEvShBPRRoUPUTpkYa+w6qF1k3Foc4rI76rir4Q1soKq53upNCSe95jRb/QKqkUvndH/wmZYvxeEmveQChy9iJWGFRXQ+ascC9Px2y7v4dac/2c/BLHTux4IpWPeeJtEHsfIN</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-31T13:34:10.653Z" agent="5.0 (Windows)" etag="O_UZeCU3efWT3zpYA9F1" version="14.9.3" type="github">
+  <diagram id="CxMK_nGAUnv4Ez0_Zqhm" name="Page-1">
+    <mxGraphModel dx="782" dy="392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Lg-iWrMg0I5dddvjPBwP-5" value="Board" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="1210" width="310" height="448" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg-iWrMg0I5dddvjPBwP-6" value="+ &lt;get, -set&gt; gameBoard: char[,]&#xa;+ &lt;get, -set&gt; currentPolyomino: char[,]&#xa;+ &lt;get, -set&gt; nextPolyomino: char[,]&#xa;- currentPolyominoXAxis&#xa;- currentPolyominoYAxis&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Lg-iWrMg0I5dddvjPBwP-5">
+          <mxGeometry y="26" width="310" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg-iWrMg0I5dddvjPBwP-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Lg-iWrMg0I5dddvjPBwP-5">
+          <mxGeometry y="150" width="310" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg-iWrMg0I5dddvjPBwP-8" value="- CreateBoard(int)&#xa;+ UpdateBoard()&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Lg-iWrMg0I5dddvjPBwP-5">
+          <mxGeometry y="348" width="310" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
